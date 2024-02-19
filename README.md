@@ -14,3 +14,9 @@
 * composer -: a utility container with the relevant entripoint command to run managing and installing php and laravel dependincies
 * artisan -: another utility container for running specific laravel commands for example database migration and creating models and controller classes
 * npm -: another utility container created specifically for installing the relevant node packages that laravel and php depends on
+
+Fire up and shut down this application with the following commands bellow:
+* docker-compose up
+* command docker-compose down to remove all container
+* docker container prune to remove all images
+* docker system prune to clean up all images, containers, volumes, network and logs that get created via the docker-compose up command
